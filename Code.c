@@ -1,3 +1,4 @@
+/* Finished 2019 - For Omni Pathfinder Robot - Arduino Mega 2560*/
 #include <STTODRobot.h>
 STTODRobot myOmni = STTODRobot();
 #define NOTE_C8  4186
@@ -12,8 +13,9 @@ unsigned int IN6 = 27;
 int A[16] ={A0,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12,A13,A14,A15};
 const int trig=12;
 const int echo=13;
-int sensorValue[16];      int maxSensorVal[16];           int
-minSensorVal[16];
+int sensorValue[16];      
+int maxSensorVal[16];           
+int minSensorVal[16];
 byte ontheline;
 const int left=90;
 const int right=270;
