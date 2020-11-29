@@ -24,8 +24,7 @@ int distance;
 
 void tornado(unsigned char vel,unsigned int duration)
 {
-      digitalWrite(IN1,HIGH);               //rotating            cu
-phap: tornado(toc do quay);
+      digitalWrite(IN1,HIGH);               //rotating            cuphap: tornado(toc do quay);
       digitalWrite(IN2,LOW);
       analogWrite (EN1,vel);
 
@@ -48,8 +47,7 @@ phap: tornado(toc do quay);
 }
 void minustornado(unsigned char vel,unsigned int duration)
 {
-      digitalWrite(IN2,HIGH);               //rotating            cu
-phap: tornado(toc do quay);
+      digitalWrite(IN2,HIGH);               //rotating            cu phap: tornado(toc do quay);
       digitalWrite(IN1,LOW);
       analogWrite (EN1,vel);
 
